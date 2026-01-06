@@ -1,5 +1,5 @@
 # Password Generator
-# Ver 002a  20260106a
+# Ver 001a  20260106a
 import random
 import string
 
@@ -13,8 +13,6 @@ def passwrd_gen(length):
 
     return password
 
-
-# MAIN
 if __name__ == "__main__":
 
     print(f"{'_' * 30}Password Generator{'_' * 30}")
