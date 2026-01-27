@@ -1,5 +1,7 @@
 import random
 import string
+# command line
+import sys
 
 def generate_password(length):
       # Define characters we want to use
@@ -13,8 +15,13 @@ def generate_password(length):
     
 
 print("--- Welcome to the Simple Password Generator ---")
+# New Features
+if len(sys.argv)<2:
+  
 
 user_length = int(input("How many characters should the password be? "))
+
+
 
 new_password = generate_password(user_length)
 print(f"Your new password is: {new_password}")
